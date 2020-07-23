@@ -1,7 +1,13 @@
 .App {
   /* text-align: center; */
   background-color: #ffffff;
+  /* box-sizing: border-box;
+  margin: 0;
+  padding: 0; */
+
+  font-family: "Nunito", sans-serif;
 }
+/* Header picture */
 .bg {
   height: 45vh;
   background-image: url(background.jpg);
@@ -9,27 +15,55 @@
   background-position: 0% 70%;
 }
 
-.palikka {
-  background-color: blueviolet;
+/* Navbar */
+.jumala {
+  background-color: rgba(255, 255, 255, 0.616);
   width: 100%;
   height: 3.1em;
   position: sticky;
   top: 0;
   margin-top: -3.1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -2.5em;
 }
 
-.App-logo {
-  /* position: absolute; */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* left: 0px; */
-  /* top: 0%; */
-  height: 45vh;
-  /* background-image: url(IMG_4077_res_test1.jpg); */
-  background-size: cover;
+.navbar {
+  /* margin-left: 10px; */
+
+  padding: 30px 10%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* .navLinks {
+  list-style: none;
+} */
+
+.navLinks li {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* .App-logo { */
+/* position: absolute; */
+/* width: 100%; */
+/* height: 100%; */
+/* left: 0px; */
+/* top: 0%; */
+/* height: 45vh; */
+/* background-image: url(IMG_4077_res_test1.jpg); */
+/* background-size: cover;
   background-position: 0% 70%;
   margin: 0px;
-}
+} */
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
