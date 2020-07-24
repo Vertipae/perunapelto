@@ -1,8 +1,8 @@
 import React from "react"
-import Navbar from "./Navbar"
-import FrontPage from "./FrontPage"
-import PotatoVariety from "./PotatoVariety"
-import Contact from "./Contact"
+import Navbar from "./components/Navbar"
+import FrontPage from "./components/FrontPage"
+import PotatoVariety from "./components/PotatoVariety"
+import Contact from "./components/Contact"
 import "./App.css"
 
 function App() {
