@@ -10,9 +10,11 @@ function App() {
     <div className='App'>
       <div className='bg' />
       <Navbar />
-      <FrontPage />
-      <PotatoVariety />
-      <Contact />
+      <div className='grid-container'>
+        <FrontPage />
+        <PotatoVariety />
+        <Contact />
+      </div>
     </div>
   )
 }

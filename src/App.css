@@ -45,3 +45,28 @@ nav {
   display: inline-block;
   padding: 10px;
 }
+
+/* Grid*/
+.grid-container {
+  display: grid;
+  grid-template-rows: 55vh 55vh 55vh;
+  grid-template-columns: 100vw;
+}
+
+.row-container {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 50vw 50vw;
+}
+
+.column-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
