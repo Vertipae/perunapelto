@@ -79,7 +79,10 @@ nav {
 .column-left {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 10%;
 }
 
 .a1 {
@@ -97,7 +100,10 @@ nav {
 .column-right {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 10%;
 }
 
 .a2 {
@@ -106,9 +112,27 @@ nav {
 }
 
 .b2 {
-  background-color: #eb76fdab;
+  background-color: #eb76fdcc;
 }
 
 .c2 {
   background-color: #fff5a059;
+}
+
+/* components Square.js */
+.square {
+  height: 10px;
+  width: 10px;
+  margin-right: 1em;
+  min-width: 10px;
+  max-width: 10px;
+  min-height: 10px;
+  max-height: 10px;
+}
+
+.textRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 55%; */
 }
