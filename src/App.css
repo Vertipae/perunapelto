@@ -50,13 +50,30 @@ nav {
 .grid-container {
   display: grid;
   grid-template-rows: 55vh 55vh 55vh;
-  grid-template-columns: 100vw;
+  grid-template-columns: 100%;
 }
 
 .row-container {
   display: grid;
   grid-template-rows: 100%;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50% 50%;
+}
+
+.a {
+  background-image: url(h1.jpg);
+  /* background-size: contain; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.b {
+  background-image: url(h2.jpg);
+  background-size: cover;
+}
+
+.c {
+  background-image: url(h3.jpg);
+  background-size: cover;
 }
 
 .column-left {
@@ -65,8 +82,33 @@ nav {
   align-items: center;
 }
 
+.a1 {
+  background-color: #c2e595c5;
+}
+
+.b1 {
+  background-color: #eb76fd3a;
+}
+
+.c1 {
+  background-color: #fff5a098;
+}
+
 .column-right {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.a2 {
+  /* background-color: #c2e595; */
+  background-color: #ffffff44;
+}
+
+.b2 {
+  background-color: #eb76fdab;
+}
+
+.c2 {
+  background-color: #fff5a059;
 }
