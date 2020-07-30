@@ -136,3 +136,35 @@ nav {
   align-items: center;
   /* max-width: 55%; */
 }
+
+.button {
+  margin-top: 1rem;
+  background-color: #535353;
+  text-align: center;
+  border-radius: 0.2rem;
+  border: #ea76fd 0.1rem solid;
+  padding: 0.5rem 1.3rem;
+  color: #bbcfa1;
+  line-height: 1.1;
+  min-width: 10ch;
+  min-height: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  -webkit-text-decoration-color: #938f3e; /* Safari */
+  text-decoration-color: #938f3e;
+  /* text-decoration-thickness: 5px; miksi ei toimi */
+}
+
+a:active {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #938f3e; /* Safari */
+  text-decoration-color: #938f3e;
+}

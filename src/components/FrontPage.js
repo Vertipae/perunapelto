@@ -1,9 +1,10 @@
 import React from "react"
 import Square from "./Square"
+import Button from "./Button"
 
 export default function FrontPage() {
   return (
-    <div className='row-container a'>
+    <div className='row-container a' id='frontpage'>
       <div className='column-left a1'>
         <div className='textRow'>
           <Square color='#e2cd0f' />
@@ -17,6 +18,7 @@ export default function FrontPage() {
             exercitation
           </p>
         </div>
+        <Button click='#contact'>Ota yhteyttä</Button>
       </div>
       <div className='column-right a2'></div>
     </div>

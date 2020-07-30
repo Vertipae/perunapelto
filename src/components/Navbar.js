@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, createRef } from "react"
+import React, { useEffect, useState, createRef } from "react"
 
 export default () => {
   const [background, setBackground] = useState(false)
@@ -27,15 +27,18 @@ export default () => {
       <p>Logo</p>
 
       <ul className='navLinks'>
-        <li>Etusivu</li>
-        <li>Lajikkeet</li>
-        <li>Ota yhteyttä</li>
+        <li>
+          <a href='#frontpage'>Etusivu</a>
+        </li>
+        <li>
+          <a href='#potatovariety'>Lajikkeet</a>
+        </li>
+        <li>
+          <a href='#contact'>Ota yhteyttä</a>
+        </li>
       </ul>
 
       <p>Button</p>
     </nav>
   )
 }
-
-//https://blog.bitsrc.io/react-useref-and-react-createref-the-difference-afedb9877d0f
-// https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY

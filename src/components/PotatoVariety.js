@@ -3,7 +3,7 @@ import Square from "./Square"
 
 export default function PotatoVariety() {
   return (
-    <div className='row-container b'>
+    <div className='row-container b' id='potatovariety'>
       <div className='column-left b1'></div>
       <div className='column-right b2'>
         <h3 style={{ color: "white" }}>Maecenas sodales et lacus:</h3>
