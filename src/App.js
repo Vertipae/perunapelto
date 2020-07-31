@@ -4,6 +4,7 @@ import FrontPage from "./components/FrontPage"
 import PotatoVariety from "./components/PotatoVariety"
 import Contact from "./components/Contact"
 import "./App.css"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <PotatoVariety />
         <Contact />
       </div>
+      <Footer />
     </div>
   )
 }

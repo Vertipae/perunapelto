@@ -1,6 +1,6 @@
 import React from "react"
 import Square from "./Square"
-import Button from "./Button"
+import Button from "./LinkButton"
 
 export default function FrontPage() {
   return (
