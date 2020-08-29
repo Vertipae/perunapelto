@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/perunapelto/static/css/main.e2487774.chunk.css",
-    "main.js": "/perunapelto/static/js/main.fc36c875.chunk.js",
-    "main.js.map": "/perunapelto/static/js/main.fc36c875.chunk.js.map",
+    "main.css": "/perunapelto/static/css/main.0805b468.chunk.css",
+    "main.js": "/perunapelto/static/js/main.ca2273d3.chunk.js",
+    "main.js.map": "/perunapelto/static/js/main.ca2273d3.chunk.js.map",
     "runtime-main.js": "/perunapelto/static/js/runtime-main.91f91d6e.js",
     "runtime-main.js.map": "/perunapelto/static/js/runtime-main.91f91d6e.js.map",
     "static/js/2.96bd4d29.chunk.js": "/perunapelto/static/js/2.96bd4d29.chunk.js",
     "static/js/2.96bd4d29.chunk.js.map": "/perunapelto/static/js/2.96bd4d29.chunk.js.map",
     "index.html": "/perunapelto/index.html",
-    "precache-manifest.06da4896a96a98c59db51edf074beaea.js": "/perunapelto/precache-manifest.06da4896a96a98c59db51edf074beaea.js",
+    "precache-manifest.e9861ec918a50a2f9918314994f193af.js": "/perunapelto/precache-manifest.e9861ec918a50a2f9918314994f193af.js",
     "service-worker.js": "/perunapelto/service-worker.js",
-    "static/css/main.e2487774.chunk.css.map": "/perunapelto/static/css/main.e2487774.chunk.css.map",
+    "static/css/main.0805b468.chunk.css.map": "/perunapelto/static/css/main.0805b468.chunk.css.map",
     "static/js/2.96bd4d29.chunk.js.LICENSE.txt": "/perunapelto/static/js/2.96bd4d29.chunk.js.LICENSE.txt",
     "static/media/App.css": "/perunapelto/static/media/h3.e6201064.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.91f91d6e.js",
     "static/js/2.96bd4d29.chunk.js",
-    "static/css/main.e2487774.chunk.css",
-    "static/js/main.fc36c875.chunk.js"
+    "static/css/main.0805b468.chunk.css",
+    "static/js/main.ca2273d3.chunk.js"
   ]
 }

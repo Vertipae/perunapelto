@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/perunapelto/precache-manifest.06da4896a96a98c59db51edf074beaea.js"
+  "/perunapelto/precache-manifest.e9861ec918a50a2f9918314994f193af.js"
 );
 
 self.addEventListener('message', (event) => {

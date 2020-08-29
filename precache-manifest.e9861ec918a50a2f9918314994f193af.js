@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25c069ad4fb832628594a2d12515fedb",
+    "revision": "807150581053b5c253f97994ec8dadd8",
     "url": "/perunapelto/index.html"
   },
   {
-    "revision": "b6314b98a668b223a01f",
-    "url": "/perunapelto/static/css/main.e2487774.chunk.css"
+    "revision": "b3ed09b945e257a26a1d",
+    "url": "/perunapelto/static/css/main.0805b468.chunk.css"
   },
   {
     "revision": "3294958b5c9097b6e525",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perunapelto/static/js/2.96bd4d29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6314b98a668b223a01f",
-    "url": "/perunapelto/static/js/main.fc36c875.chunk.js"
+    "revision": "b3ed09b945e257a26a1d",
+    "url": "/perunapelto/static/js/main.ca2273d3.chunk.js"
   },
   {
     "revision": "6cea4dfd2e14ab3b20d0",
