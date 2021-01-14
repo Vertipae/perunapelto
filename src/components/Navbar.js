@@ -24,7 +24,7 @@ export default () => {
 
   return (
     <nav className={background ? "stickyBg" : ""} ref={divRef}>
-      <p>Logo</p>
+      <p className='navButtons'>Logo</p>
 
       <ul className='navLinks'>
         <li>
@@ -38,7 +38,7 @@ export default () => {
         </li>
       </ul>
 
-      <p>Button</p>
+      <p className='navButtons'>Button</p>
     </nav>
   )
 }
